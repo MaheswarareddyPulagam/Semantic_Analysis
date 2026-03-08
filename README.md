@@ -2,8 +2,8 @@
 
 This project implements a lightweight semantic search system over the 20 Newsgroups dataset. The system combines transformer embeddings, fuzzy clustering, semantic caching, and a FastAPI service to enable efficient query processing while avoiding redundant computations.
 The design focuses on semantic understanding of queries rather than keyword matching, allowing the system to recognize similar queries even when phrased differently.
-Model Architecture: 1)Dataset  2)Data Cleaning 3)Sentence Embeddings 4)Vector Database (FAISS) 5)Fuzzy Clustering (Gaussian Mixture Model) 6)Semantic Cache
-7)FastAPI Service
+Model Architecture=> Dataset  --> Data Cleaning --> Sentence Embeddings -->Vector Database (FAISS) -->Fuzzy Clustering (Gaussian Mixture Model) -->Semantic Cache
+-->FastAPI Service.
 
 
 This architecture enables efficient semantic search while reducing redundant computation using intelligent caching.
@@ -20,6 +20,6 @@ Cluster-aware lookup	      Improve cache scalability
 
 This system demonstrates how semantic embeddings, clustering, caching, and APIs can be combined to build an efficient semantic search system.
 The architecture supports:
-1)Semantic query understanding.
-2)Efficient document retrieval and preview.
-3)Reduced computation through intelligent caching.
+##Semantic query understanding
+##Efficient document retrieval and preview
+##Reduced computation through intelligent caching
