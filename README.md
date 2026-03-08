@@ -1,11 +1,8 @@
 🔍🔎 Semantic Search System with Fuzzy Clustering and Semantic Cache
 
 This project implements a lightweight semantic search system over the 20 Newsgroups dataset. The system combines transformer embeddings, fuzzy clustering, semantic caching, and a FastAPI service to enable efficient query processing while avoiding redundant computations.
-
 The design focuses on semantic understanding of queries rather than keyword matching, allowing the system to recognize similar queries even when phrased differently.
-
 Model Architecture:
-
 Dataset
    ↓
 Data Cleaning
